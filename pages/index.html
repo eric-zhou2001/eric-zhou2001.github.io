@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eric Zhou</title>
+    <link rel='stylesheet' href='../styles/homepage.css'/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../js/onclick.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="information">
+            <h1>Eric Zhou</h1>
+            <p class='content'>Computer Science Major, University of Wisconsin-Madison</p>
+            <img class="profile-pic" src="../images/profile-picture.jpg" alt="Profile Picture">
+        </div>
+        <div class="locations" id="buttons">
+            <div class='button' id='about-btn' onclick=aboutPage()>
+                <strong>About</strong>
+            </div>
+            <div class='button' id='project-btn' onclick=projectsPage()>
+                <strong>Projects</strong>
+            </div>
+            <div class='button' id='contact-btn' onclick=contactPage()>
+                <strong>Contact</strong>
+            </div>
+        </div>
+        <div id="sect"></div>
+    </div>
+    <script>
+        $(document).ready(function(){
+            $("#buttons").hide().fadeIn(800);
+        })
+    </script>
+</body>
+</html>
