@@ -73,7 +73,6 @@ h1 {
 .project img {
     float: left;
     width: 500px;
-    opacity: .5;
     border-radius: 20%;
     padding-right: 40px;
 }
