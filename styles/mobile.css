@@ -1,7 +1,5 @@
 * {
     margin: 0 auto;
-    padding-right: 10px;
-    padding-left:10px;
     box-sizing: border-box;
     font-family: Recursive, sans-serif;
 }
@@ -12,6 +10,7 @@
 }
 
 .wrapper {
+    width:100%;
     position: absolute;
     text-align: center;
 }
