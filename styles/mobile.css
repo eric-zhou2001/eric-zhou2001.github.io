@@ -6,6 +6,10 @@
     font-family: Recursive, sans-serif;
 }
 
+body {
+    background-color: #D0D0D0;
+}
+
 .information {
     padding-bottom: 20px;
     padding-top: 20px;
@@ -13,7 +17,7 @@
 
 .wrapper {
     width:100%;
-    position: absolute;
+    position: relative;
     text-align: center;
 }
 
@@ -32,7 +36,7 @@ h1 {
 
 /* Introduction */
 #introduction {
-    background-color: #D0D0D0;
+    width: 100%;
 }
 
 .profile-pic {
@@ -49,6 +53,11 @@ h1 {
 .logo {
     float:center;
     width:75px;
+}
+
+/* About me section */
+#about {
+    background-color: white;
 }
 
 /* Projects Section */
@@ -79,6 +88,10 @@ h1 {
 }
 
 /*Contact section*/
+
+#contacts {
+    background: white;
+}
 .contact-container {
     padding-top: 10px;
 }
