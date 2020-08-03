@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: 0 auto;
     text-align:center;
     padding: 0;
     box-sizing: border-box;
@@ -12,10 +12,7 @@
 }
 
 .information {
-    display:flex;
-    justify-content: center;
-    flex-direction:column;
-    align-items:center;
+
     padding-top:20px;
     padding-bottom: 50px;
     width: 100%;
@@ -60,6 +57,9 @@ h1 {
 
 /* Projects Section */
 #projects {
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
     background-color: #D0D0D0;
 }
 .project {
@@ -90,7 +90,15 @@ h1 {
 }
 
 /* Contact me section */
+.contacts {
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+}
+
 .contact-container {
+    display:flex;
+    flex-direction:column;
     padding-top: 10px;
 }
 
@@ -99,12 +107,10 @@ h1 {
 }
 
 .contact-image {
-    float:left;
     padding-right: 20px;
 }
 
 .contact-desc {
-    float:right;
     padding-top:15px;
 }
 /* Extra */
