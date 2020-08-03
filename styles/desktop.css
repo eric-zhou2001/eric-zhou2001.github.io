@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    text-align:center;
     padding: 0;
     box-sizing: border-box;
     font-family: Recursive, sans-serif;
@@ -8,11 +9,6 @@
 .content{
     padding-top:10px;
     font-size: 15px;
-}
-
-.wrapper {
-    position: absolute;
-    width: 100%;
 }
 
 .information {
