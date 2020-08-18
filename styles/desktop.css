@@ -52,7 +52,7 @@ h1 {
 .logo {
     float:center;
     width:100px;
-    height: 100px;
+
 }
 
 /* Projects Section */
@@ -64,6 +64,7 @@ h1 {
 }
 .project {
     padding-top:20px;
+    padding-bottom: 20px;
 }
 
 .project img {
